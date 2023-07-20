@@ -7,6 +7,8 @@ function PostPage({ post }) {
 }
 
 export async function getStaticPaths() {
+  console.log('===> getStaticPaths')
+
   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
   const posts = await response.json();
 
@@ -21,6 +23,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  console.log('===> getStaticProps')
+
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/posts/${params.id}`
   );
