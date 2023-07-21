@@ -20,3 +20,11 @@ export async function getStaticProps() {
 }
 
 export default Posts;
+/*
+  Next.js: The Ultimate Guide to SSR and SSG in React
+  https://medium.com/womenintechnology/next-js-the-ultimate-guide-to-ssr-and-ssg-in-react-245598d765c3
+
+  NextJS | getStaticProps
+  https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props
+  
+*/
