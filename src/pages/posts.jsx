@@ -16,6 +16,7 @@ export async function getStaticProps() {
     props: {
       posts,
     },
+    revalidate: 60 // Regenerate the page every 60 seconds
   };
 }
 
@@ -26,5 +27,8 @@ export default Posts;
 
   NextJS | getStaticProps
   https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props
+  
+  Incremental Static Regeneration (ISR) In Next.Js
+  https://blog.openreplay.com/incremental-static-regeneration-in-nextjs/
   
 */

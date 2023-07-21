@@ -34,6 +34,7 @@ export async function getStaticProps({ params }) {
     props: {
       post,
     },
+    revalidate: 60 // Regenerate the page every 60 seconds
   };
 }
 
@@ -47,5 +48,8 @@ export default PostPage;
 
   NextJS | getStaticPaths
   https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths
+
+  Incremental Static Regeneration (ISR) In Next.Js
+  https://blog.openreplay.com/incremental-static-regeneration-in-nextjs/
 
 */
