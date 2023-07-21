@@ -10,13 +10,14 @@
 </div>
 
 
-
-
 ### Prologue
 
 
 ### I. Introduction
-
+- CSR 
+- SSR
+- SSG
+- ISR 
 
 ### II. SSG
 
@@ -29,10 +30,12 @@
 
 ### V. Reference
 1. [What is CSR SSR SSG and ISR](https://youtu.be/YkxrbxoqHDw)
-2. [Next.js: The Ultimate Guide to SSR and SSG in React](https://medium.com/womenintechnology/next-js-the-ultimate-guide-to-ssr-and-ssg-in-react-245598d765c3)
-3. [NextJS | getStaticProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props)
-4. [NextJS | getStaticPaths](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)
-5. [Incremental Static Regeneration (ISR) In Next.Js](https://blog.openreplay.com/incremental-static-regeneration-in-nextjs/)
+2. [Next.js 13: complete guide to Server Components and the App Directory](https://makerkit.dev/blog/tutorials/nextjs13)
+3. [Next.js: The Ultimate Guide to SSR and SSG in React](https://medium.com/womenintechnology/next-js-the-ultimate-guide-to-ssr-and-ssg-in-react-245598d765c3)
+4. [NextJS | getStaticProps](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props)
+5. [NextJS | getStaticPaths](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths)
+6. [Incremental Static Regeneration (ISR) In Next.Js](https://blog.openreplay.com/incremental-static-regeneration-in-nextjs/)
+7. [The Facts in the Case of M. Valdemar](https://poemuseum.org/the-facts-in-the-case-of-m-valdemar/)
 
 
 ### Epilogue 
