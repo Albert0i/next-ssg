@@ -14,13 +14,22 @@
 
 
 ### I. Terminology
-- SSR - Server-Side Rendering, will run a special function to fetch data from API every page request on the server-side (before the page is loaded, that special function will run first, creating a delay, then after that, it will serve the page).
+- SSR - Server-Side Rendering
+- CSR - Client-Side Rendering.
+- SSG - Static Site Generation
+- ISR - Incremental Static Regeneration
 
-- CSR - Client-Side Rendering, this is the usual kind of data fetching using useEffect, it will fetch the data from the API every single page request on the client-side (after the page is rendered, then the function will run).
+At the very moment when a URL is entered or a hyperlink is clicked on a client browser, a HTTP request is fired and zigzagging on it ways till the end point is hit. HTTP server receives and resolves the resource, examine and execute code/scripts inside. Massages the result with boilerplates, generates HTML and send back to the client along with meta data. Typically, code/script execution means pulling data from external databases. 
 
-- SSG - Static Site Generation, will run a special function to fetch data once when that page builds.
+As you can see, all works are done on server, and is called *Server Side Rendering*. SSR is the traditional way of most of the classic web application behave. [PHP](https://www.php.net/) and [ASP.NET Web Forms](https://learn.microsoft.com/en-us/aspnet/web-forms/) are import milestones. Server, per se, should be powerful enough and equipped with many modules/plugins or drivers of software or even hardware. 
 
-- ISR - Incremental Static Regeneration, this is a new thing, shortly put, a combination of SSG, and SSR, where it served statically, but at a certain time and certain condition that page will rebuild and fetch the data from the API again.
+Another approach is like this, whenever a request is hit on the end point. A *barebone* HTML attendant with [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) code are sent back to client browser. Forthwith, the code takes control and subsequent HTTP requests are sent to [API Gateway](https://microservices.io/patterns/apigateway.html) for necessary resources. Data are returned to client browser again and be merged with the barefone and display as HTML content. 
+
+Typically, this process is known as [Hydration](https://en.wikipedia.org/wiki/Hydration_(web_development)). The data to be return is in [json](https://www.json.org/json-en.html) format. 
+
+As you may see, there are two servers, the first one serves static files which can be hosted on low-end HTTP server such as [nginx](https://nginx.org/en/). API Gateway is responsible for database manipulation and serves with [REST API](https://restfulapi.net/). Client code invokes API call but doesn't perceive what database it's running on. This is called *Client Side Rendering*. CSR is the contemporary way of most of the single-page application behave. Code can be written in pure javascript or more on using [jQuery](https://jquery.com/), or even on front end frameworks such as [React](https://react.dev/), [Vue](https://vuejs.org/) or [Angular](https://angularjs.org/).
+
+So far so good... 
 
 
 ### II. SSG
