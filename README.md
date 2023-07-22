@@ -8,6 +8,7 @@
 甘龍曰：「不然。聖人不易民而教，知者不變法而治。因民而教，不勞而成功；緣法而治者，吏習而民安之。」衛鞅曰：「龍之所言，世俗之言也。常人安於故俗，學者溺於所聞。以此兩者居官守法可也，非所與論於法之外也。三代不同禮而王，五伯不同法而霸。智者作法，愚者制焉；賢者更禮，不肖者拘焉。」
 
 杜摯曰：「利不百，不變法；功不十，不易器。法古無過，循禮無邪。」衛鞅曰：「治世不一道，便國不法古。故湯武不循古而王，夏殷不易禮而亡。反古者不可非，而循禮者不足多。」
+
 [《史記‧商君列傳》](https://ctext.org/shiji/shang-jun-lie-zhuan/zh)
 
 
@@ -34,7 +35,7 @@ So far so good... It is said that "If benefit doesn't reach hundred fold, don't 
 
 ### III. SSG
 >In the realm of database, data are treated in different ways. Data, per se, can be divided into transactional and non-transactional. Code tables, such as employee names, product categories, site/location addresses, are typical non-transactional and be always referenced by transactional data. Since they are infrequently changed, caching code tables lest round-tripping to backend database again and again for the same set of data can be a performance boost especially for tight budget system.
-[check this out](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md)
+([check this out](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md))
 
 
 ### IV. ISR
