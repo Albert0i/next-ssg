@@ -10,11 +10,13 @@
 杜摯曰：「利不百，不變法；功不十，不易器。法古無過，循禮無邪。」衛鞅曰：「治世不一道，便國不法古。故湯武不循古而王，夏殷不易禮而亡。反古者不可非，而循禮者不足多。」
 [《史記‧商君列傳》](https://ctext.org/shiji/shang-jun-lie-zhuan/zh)
 
-### I. Terminology ([TL;DR](https://www.merriam-webster.com/dictionary/TL%3BDR))
+### I. Terminology
 - SSR - Server-Side Rendering
 - CSR - Client-Side Rendering.
 - SSG - Static Site Generation
 - ISR - Incremental Static Regeneration
+
+[TL;DR](https://www.merriam-webster.com/dictionary/TL%3BDR)
 
 At the very moment when a URL is entered or a hyperlink is clicked on a client browser, a HTTP request is fired and zigzagging on it ways till the end point is hit. HTTP server receives and resolves the resource, examine and execute code/scripts inside. Massages the result with boilerplates, generates HTML and send back to the client along with meta data. Typically, code/script execution means pulling data from external databases. 
 
