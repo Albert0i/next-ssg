@@ -10,14 +10,15 @@
 杜摯曰：「利不百，不變法；功不十，不易器。法古無過，循禮無邪。」衛鞅曰：「治世不一道，便國不法古。故湯武不循古而王，夏殷不易禮而亡。反古者不可非，而循禮者不足多。」
 [《史記‧商君列傳》](https://ctext.org/shiji/shang-jun-lie-zhuan/zh)
 
+
 ### I. Terminology
 - SSR - Server-Side Rendering
 - CSR - Client-Side Rendering.
 - SSG - Static Site Generation
 - ISR - Incremental Static Regeneration
 
-[TL;DR](https://www.merriam-webster.com/dictionary/TL%3BDR)
 
+### II. [TL;DR](https://www.merriam-webster.com/dictionary/TL%3BDR)
 At the very moment when a URL is entered or a hyperlink is clicked on a client browser, a HTTP request is fired and zigzagging on it ways till the end point is hit. HTTP server receives and resolves the resource, examine and execute code/scripts inside. Massages the result with boilerplates, generates HTML and send back to the client along with meta data. Typically, code/script execution means pulling data from external databases. 
 
 As you can see, all works are done on server, and is called *Server Side Rendering*. SSR is the traditional way of most of the classic web application behave. [PHP](https://www.php.net/) and [ASP.NET Web Forms](https://learn.microsoft.com/en-us/aspnet/web-forms/) are import milestones. Server, per se, should be powerful enough and equipped with many modules/plugins or drivers of software or even hardware. 
@@ -31,20 +32,19 @@ As you may see, there are two servers, the first one serves static files which c
 So far so good... It is said that "If benefit doesn't reach hundred fold, don't change the law; If performance doesn't meet ten times, don't change the tool.". Everythng has a cost, cost, in terms of web applications, it means time versus money. We can achieve the goal of fast response time but low hardware investment and vice versa. 
 
 
-### II. SSG
+### III. SSG
 >In the realm of database, data are treated in different ways. Data, per se, can be divided into transactional and non-transactional. Code tables, such as employee names, product categories, site/location addresses, are typical non-transactional and be always referenced by transactional data. Since they are infrequently changed, caching code tables lest round-tripping to backend database again and again for the same set of data can be a performance boost especially for tight budget system.
 [check this out](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md)
 
 
-
-### III. ISR
+### IV. ISR
 
 
 ### V. Summary
 [Live demo](https://next-ssg.onrender.com/)
 
 
-### V. Reference
+### VI. Reference
 1. [What is CSR SSR SSG and ISR](https://youtu.be/YkxrbxoqHDw)
 2. [Next.js 13: complete guide to Server Components and the App Directory](https://makerkit.dev/blog/tutorials/nextjs13)
 3. [Next.js: The Ultimate Guide to SSR and SSG in React](https://medium.com/womenintechnology/next-js-the-ultimate-guide-to-ssr-and-ssg-in-react-245598d765c3)
