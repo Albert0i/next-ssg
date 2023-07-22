@@ -35,7 +35,7 @@ So far so good... It is said that "If benefit doesn't reach hundred fold, don't 
 
 ### III. SSG
 >In the realm of database, data are treated in different ways. Data, per se, can be divided into transactional and non-transactional. Code tables, such as employee names, product categories, site/location addresses, are typical non-transactional and be always referenced by transactional data. Since they are infrequently changed, caching code tables lest round-tripping to backend database again and again for the same set of data can be a performance boost especially for tight budget system.
-([...](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md))
+([more...](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md))
 
 
 ### IV. ISR
