@@ -1,11 +1,11 @@
 ## SSG and ISR
 
-<div style="text-align: center; color:white; background-color:black; font-size: small;">
+<div style="text-align: right; color:white; background-color:black"><em>
 “For God’s sake! — quick! — quick! — put me to sleep — or, quick! — waken me! — quick! — I say to you that I am dead!”
 <br /><br />
 The Facts in the Case of M. Valdemar<br />
 Edgar Allan Poe
-</div>
+</em></div>
 
 
 ### Prologue
