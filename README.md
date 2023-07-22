@@ -36,7 +36,6 @@ So far so good... It is said that "If benefit doesn't reach hundred fold, don't 
 
 
 ### V. Summary
-
 [Live demo](https://next-ssg.onrender.com/)
 
 
@@ -56,4 +55,4 @@ So far so good... It is said that "If benefit doesn't reach hundred fold, don't 
 ```
 
 
-### EOF (2023/07/21)
+### EOF (2023/07/28)
