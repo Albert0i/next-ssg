@@ -26,7 +26,7 @@ Typically, this process is known as [Hydration](https://en.wikipedia.org/wiki/Hy
 
 As you may see, there are two servers, the first one serves static files which can be hosted on low-end HTTP server such as [nginx](https://nginx.org/en/). API Gateway is responsible for database manipulation and serves with [REST API](https://restfulapi.net/). Client code invokes API call but doesn't perceive what database it's running on. This is called *Client Side Rendering*. CSR is the contemporary way of most of the single-page application behave. Code can be written in pure javascript or more on using [jQuery](https://jquery.com/), or even on front end frameworks such as [React](https://react.dev/), [Vue](https://vuejs.org/) or [Angular](https://angularjs.org/).
 
-So far so good... 
+So far so good... It is said that "If benefit doesn't reach hundred fold, don't change the law; If performance doesn't meet ten times, don't change the tool."
 
 
 ### II. SSG
