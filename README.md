@@ -135,6 +135,7 @@ So your page paths that are pre-rendered depend on external data. To handle this
 
 
 **CAVEAT**
+
 SSG is not a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
 
 
@@ -201,6 +202,8 @@ http://localhost:3000/api/revalidate?secret=<token>
 
 
 ### V. Summary
+There no a rule of thumb for everythng. There is no right or wrong, only a difference of types of applications. Obviously, SSG doesn't work with [OLTP](https://www.oracle.com/database/what-is-oltp/). 10 pages and 10,000 pages can be tackled differently. 
+
 [Live demo](https://next-ssg.onrender.com/)
 
 
@@ -216,11 +219,8 @@ http://localhost:3000/api/revalidate?secret=<token>
 
 ### Epilogue 
 ```
-Du Zhi said: "If the profits do not reach a hundred, do not change the law; if the achievements do not reach ten, do not change the tools. There is no mistake in the ancient laws, and there is no evil in following the rites."
 
-project type and scale 
-What is Online Transaction Processing (OLTP) - Oracle
-https://www.oracle.com/database/what-is-oltp/
+
 ```
 
 
