@@ -134,6 +134,11 @@ So your page paths that are pre-rendered depend on external data. To handle this
 
 ![alt run1](img/run-1.JPG)
 
+![alt screen1](img/screen-1.JPG)
+
+![alt screen2](img/screen-2.JPG)
+
+![alt screen3](img/screen-3.JPG)
 
 **CAVEAT:**
 SSG is not a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
