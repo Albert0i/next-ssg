@@ -142,7 +142,7 @@ SSG is not a good idea if you cannot pre-render a page ahead of a user's request
 ### IV. [ISR](https://nextjs.org/docs/pages/building-your-application/data-fetching/incremental-static-regeneration)
 >Next.js allows you to create or update static pages after you’ve built your site. Incremental Static Regeneration (ISR) enables you to use static-generation on a per-page basis, without needing to rebuild the entire site. With ISR, you can retain the benefits of static while scaling to millions of pages.
 
-#### 1. Revalidation by time
+#### Scenario 1. Revalidation by time
 To use ISR, add the revalidate prop to getStaticProps:
 pages/posts.jsx
 ```
@@ -168,7 +168,7 @@ When a request is made to a page that was pre-rendered at build time, it will in
 - Once the page generates successfully, Next.js will invalidate the cache and show the updated page. If the background regeneration fails, the old page would still be unaltered.
 
 
-#### 2. On-Demand Revalidation 
+#### Scenario 2. On-Demand Revalidation 
 >If you set a revalidate time of 60, all visitors will see the same generated version of your site for one minute. The only way to invalidate the cache is from someone visiting that page after the minute has passed.
 
 >Starting with v12.2.0, Next.js supports On-Demand Incremental Static Regeneration to manually purge the Next.js cache for a specific page. This makes it easier to update your site.
