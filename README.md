@@ -30,7 +30,7 @@ As you can see, everything is done on the server and thus named *Server Side Ren
 
 Human evolves and so does web application. This time when a request reached the end point. Only a *barebone* HTML attendant with [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) code are sent back to client browser. From then on, it takes control and subsequent HTTP requests are initiated to [API Gateway](https://microservices.io/patterns/apigateway.html) for any necessary resources. Again, Data are returned to client browser and be merged with the barebone and finallly HTML contents are displayed. 
 
-**NOTE**
+**NOTE: **
 Technically speaking, the process of filling barebone with stuffs to generate HTML page is known as [Hydration](https://en.wikipedia.org/wiki/Hydration_(web_development)). The data to be return from API Gateway is in [json](https://www.json.org/json-en.html) format. Code/scripts which invoke the API calls and pulls data from database but doesn't realize what type of database it's using.
 
 As you can see, there are two servers, the first one serves static files which can be hosted on low-end HTTP server such as [nginx](https://nginx.org/en/). The second one is API Gateway which is responsible for database manipulation by means of [REST API](https://restfulapi.net/). Most of the works are done on client browser and thus named *Client Side Rendering*. CSR is the contemporary way of which majority modern web applications behave. Code/script can be written in pure javascript or more often than not using [jQuery](https://jquery.com/), front end frameworks such as [React](https://react.dev/), [Vue](https://vuejs.org/) or [Angular](https://angularjs.org/). 
@@ -135,7 +135,7 @@ So your page paths that are pre-rendered depend on external data. To handle this
 ![alt run1](img/run-1.JPG)
 
 
-**CAVEAT**
+**CAVEAT: **
 SSG is not a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
 
 
