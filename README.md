@@ -132,8 +132,6 @@ So your page paths that are pre-rendered depend on external data. To handle this
 
 ![alt build2](img/build-2.JPG)
 
-![alt run1](img/run-1.JPG)
-
 ![alt screen1](img/screen-1.JPG)
 
 ![alt screen2](img/screen-2.JPG)
