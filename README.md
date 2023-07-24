@@ -202,7 +202,7 @@ http://localhost:3000/api/revalidate?secret=<token>
 
 
 ### V. Summary
-There no a rule of thumb for everythng. There is no right or wrong, only a difference of types of applications. Obviously, SSG doesn't work with [OLTP](https://www.oracle.com/database/what-is-oltp/). A 10 pages or 10,000 pages website SHOULD be tackled differently... 
+There no a rule of thumb for everythng. In a similar way, there is no right or wrong, only a difference of types of applications. Obviously, SSG doesn't work with [OLTP](https://www.oracle.com/database/what-is-oltp/). A 10 pages or 10,000 pages website SHOULD be tackled differently... 
 
 [Live demo](https://next-ssg.onrender.com/)
 
