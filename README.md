@@ -224,4 +224,4 @@ There no a rule of thumb for everythng. There is no right or wrong, only a diffe
 ```
 
 
-### EOF (2023/07/28)
+### EOF (2023/07/25)
