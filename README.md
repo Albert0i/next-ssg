@@ -22,6 +22,8 @@ Edgar Allan Poe
 - SSG - Static Site Generation
 - ISR - Incremental Static Regeneration
 
+[Check this out](https://nextjs.org/docs/app/building-your-application/rendering)
+
 
 ### II. [TL;DR](https://www.merriam-webster.com/dictionary/TL%3BDR)
 At the very moment when a URL is entered or a hyperlink is clicked on client browser, a HTTP request is fired, zigzagging, thronging and shouldering through it ways till the end point is reached. When HTTP server receives and resolves the resource; examines and executes code/scripts inside; merges and massages the resource with predefined boilerplates; generalizes and generates HTML; set for and send back to the client along with meta data (header, status etc) finally. 
