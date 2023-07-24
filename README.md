@@ -204,7 +204,7 @@ http://localhost:3000/api/revalidate?secret=<token>
 ### V. Summary
 There no a rule of thumb for everythng. In a similar way, there is no right or wrong, only a difference of types of applications. Obviously, SSG doesn't work with [OLTP](https://www.oracle.com/database/what-is-oltp/). A 10 pages or 10,000 pages website SHOULD be tackled differently... 
 
-Throughout this example, [Pages Router](https://nextjs.org/docs/pages) is used instead of [App Router](https://nextjs.org/docs/app), 
+Throughout this example, [Pages Router](https://nextjs.org/docs/pages) is used instead of [App Router](https://nextjs.org/docs/app). 
 
 > Before Next.js 13, the Pages Router was the main way to create routes in Next.js. It used an intuitive file-system router to map each file to a route. The Pages Router is still supported in newer versions of Next.js, but we recommend migrating to the new App Router to leverage React's latest features.
 
