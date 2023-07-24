@@ -22,7 +22,7 @@ Edgar Allan Poe
 - SSG - Static Site Generation
 - ISR - Incremental Static Regeneration
 
-[Check this out](https://nextjs.org/docs/app/building-your-application/rendering)
+([Read more..](https://nextjs.org/docs/app/building-your-application/rendering))
 
 
 ### II. [TL;DR](https://www.merriam-webster.com/dictionary/TL%3BDR)
@@ -42,7 +42,7 @@ So far so good... It's said that "利不百，不變法；功不十，不易器�
 
 ### III. [SSG](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation)
 >In the realm of database, data are treated in different ways. Data, per se, can be divided into transactional and non-transactional. Code tables, such as employee names, product categories, site/location addresses, are typical non-transactional and be always referenced by transactional data. Since they are infrequently changed, caching code tables lest round-tripping to backend database again and again for the same set of data can be a performance boost especially for tight budget system.
-([more...](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md))
+([Read more...](https://github.com/Albert0i/yrunner-on-node/blob/main/README.V2.md))
 
 SSG means all HTML pages are generated in build time and you can use it on many types of pages, including:
 
