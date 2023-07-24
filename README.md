@@ -144,6 +144,7 @@ SSG is not a good idea if you cannot pre-render a page ahead of a user's request
 
 #### Scenario 1. Revalidation by time
 To use ISR, add the revalidate prop to getStaticProps:
+
 pages/posts.jsx
 ```
 export async function getStaticProps() {
