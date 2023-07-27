@@ -214,7 +214,9 @@ Throughout this example, [Pages Router](https://nextjs.org/docs/pages) is used i
 
 > Before Next.js 13, the Pages Router was the main way to create routes in Next.js. It used an intuitive file-system router to map each file to a route. The Pages Router is still supported in newer versions of Next.js, but we recommend migrating to the new App Router to leverage React's latest features.
 
-[Live demo](https://next-ssg.onrender.com/)
+[Live demo (render.com)](https://next-ssg.onrender.com/)
+
+[Live demo (vercel)](https://next-ssg-zeta.vercel.app/)
 
 
 ### VI. Reference
